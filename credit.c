@@ -10,7 +10,7 @@
 
 //e.g. credit = 12345 and i want the number 3 to do this you can:
 // 12345 % 1000 = 345
-// 345 / 100 = 3.45, but in this case you store this value in an int so it is = 3
+// 345 / 100 = 3.45, but in this case you store this value in an int so 3.45 = 3
 long power_10(int k);
 void cardtype(long credit);
 int main(void)
