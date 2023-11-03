@@ -4,13 +4,13 @@
 //if you want to know what this program does: https://cs50.harvard.edu/x/2023/psets/1/credit/ 
 //it basically uses the Luhn's Algorithm on a credit card number and gives back what kind ocredit card it is (Mastercard, Visa or American Express)
 
-//this program "extract" certain digits from a number (called credit) and does some mathematical operations with them
-//to get a certain digit from the credit I divided the credit by a power of 10 that is a order of magnitued greater than the position of the the digit that i wanted and got the remainder with the % operator
-//then to have the single digit without the number that followed i divided the remainder of the previous operation by a power of 10 equal to the order of magnitude of the digit that i wanted
+//this program "extracts" certain digits from a number (called credit) and does some mathematical operations with them
+//to get a certain digit from the credit I divided the credit by a power of 10 that is a order of magnitude greater than the position of the the digit that i wanted and got the remainder with the % operator
+//then to have the single digit without the number that followed the digit that i wanted i divided the remainder of the previous operation by a power of 10 equal to the order of magnitude of the digit that i wanted
 
-//e.g. credit = 12345 and i want the number 3 to do this you can:
+// e.g. credit = 12345 and i want the number 3, to do this you can:
 // 12345 % 1000 = 345
-// 345 / 100 = 3.45, but in this case you store this value in an int so 3.45 = 3
+// 345 / 100 = 3.45, but the value in an int so 3.45 = 3
 long power_10(int k);
 void cardtype(long credit);
 int main(void)
