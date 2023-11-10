@@ -30,7 +30,7 @@ int main(int argc, string argv[])
         }
     }
 
-    //Checks that each letter is present one time only be it in lowercase or uppercase
+    //Checks that each letter is present only one time, be it in lowercase or uppercase
     bool isOne = true;
     int a = 0;
     while (isOne == true && a < 26)
