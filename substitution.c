@@ -4,11 +4,11 @@
 #include <string.h>
 
 // If you want to know what it does: https://cs50.harvard.edu/x/2023/psets/2/substitution/
-// It's a substitution cipher that takes a key (in the CLI) and a message (called plain text)
+// It's a substitution cipher that takes a key (in the CLI) and a message (called plain text) and gives back an ecrypted message
 
 int main(int argc, string argv[])
 {
-    // the program takes only one key/ one argument (besides the name of the program)
+    // the program takes only one argument (the key) besides the name of the program
     if (argc != 2)
     {
         printf("Usage: ./substitution key\n");
