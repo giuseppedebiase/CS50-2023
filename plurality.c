@@ -70,6 +70,8 @@ int main(int argc, string argv[])
 bool vote(string name)
 {
     // TODO
+    // This loop scans the list of candidates and if the argument of vote is == to one of the candidates name
+    // the counter for that candidates' votes increases b 1
     for (int i = 0; i < candidate_count; i++)
     {
         if (strcmp(name, candidates[i].name) == 0)
@@ -85,7 +87,11 @@ bool vote(string name)
 void print_winner(void)
 {
     // TODO
+    // Code for finding the biggest number
     int max = 0;
+    // This loops scans the number of votes that each candidate has,
+    // each time it founds a new high among the number of votes max gets updated to that value
+    // and the loop keeps iterating until it founds a new max (or the number of candidates ends)
     for (int i = 0; i < candidate_count; i++)
     {
         if (candidates[i].votes > max)
@@ -94,6 +100,8 @@ void print_winner(void)
         }
     }
 
+    // The loops scans the same thing as the last one
+    // if one (or more candidates if there is a tie) has a number of votes = max his/her name gets printed
     for (int i = 0; i < candidate_count; i++)
     {
         if (candidates[i].votes == max)
