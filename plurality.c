@@ -70,7 +70,7 @@ int main(int argc, string argv[])
 bool vote(string name)
 {
     // TODO
-    // This loop scans the list of candidates and if the argument of vote is == to one of the candidates name
+    // This loop scans the list of candidates and if the argument of vote is = to one of the candidates name
     // the counter for that candidates' votes increases b 1
     for (int i = 0; i < candidate_count; i++)
     {
