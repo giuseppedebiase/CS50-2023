@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <string.h>
 
-//To know what it does: https://cs50.harvard.edu/x/2023/labs/2/
+//If you want to know what it does: https://cs50.harvard.edu/x/2023/labs/2/
 
 // Points assigned to each letter of the alphabet
 // A = 1 pt, B = 3 pt, C = 3pt ...
