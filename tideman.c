@@ -4,7 +4,7 @@
 
 /* If you want to know what it does: https://cs50.harvard.edu/x/2023/psets/3/tideman/ 
 This programs runs a made up election choosing the winner via the tideman algorithm
-NOTE: The lines between "Max number of candidates" and the last line of main were already written, the job of the student is to complete the rest
+NOTE: The lines between "Max number of candidates" and the last line of main were already written, the job of the student was to complete the rest
 NOTE 2: After struggling a few days witht he lock_pairs function I read this article that gives a hint on how to do it: https://gist.github.com/nicknapoli82/6c5a1706489e70342e9a0a635ae738c9 
               ._      _.
              /  `""""`  \
