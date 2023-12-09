@@ -3,6 +3,10 @@
 
 #include "helpers.h"
 
+//If you want to know what this code does: https://cs50.harvard.edu/x/2023/labs/4/smiley/
+//It takes the smiley in the smiley.bmp and changes the colour from black to something else
+//NOTE!!!: helpers.c is the only file that I wrote in this directory!!!
+
 int main(int argc, char *argv[])
 {
     // ensure proper usage
