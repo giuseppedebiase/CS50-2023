@@ -145,8 +145,8 @@ bool vote(int rank, string name, int ranks[])
 void record_preferences(int ranks[])
 {
     // TODO
-    /* goes through the ranks array and makes a comparison between each possible pair of candidates
-    if in this array candidate number i is in a higher position than candidates j then 
+    /* goes through the ranks array and makes a comparison between each possible pair of candidates,
+    if in this array candidate number i is in a higher position than candidate number j then 
     the preferences array gets updatd in the [i][j] position
     */
     for (int a = 0; a < candidate_count; a++)
